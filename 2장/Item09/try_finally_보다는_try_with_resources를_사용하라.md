@@ -100,8 +100,8 @@ public class Application {
 ```
 실행 결과 :
 java.lang.NullPointerException
-	at lecture_01.Item09.Application.check(Application.java:16)
-	at lecture_01.Item09.Application.main(Application.java:6)
+	at lecture01.Item09.Application.check(Application.java:16)
+	at lecture01.Item09.Application.main(Application.java:6)
 ```
 
 발생하는 예외를 main의 catch 블록에서 체크해서 printStackTrace를 호출했는데, 14번 라인, 즉 finally 블록에서 던져진 NullPointerException을 catch하고 try 블록의 IllegalArgumentException은 무시도니 것을 확인할 수 있다.
@@ -168,11 +168,11 @@ public class Reconstruction {
 
 ```
 java.lang.NullPointerException
-	at lecture_01.Item09.Reconstruction.check(Reconstruction.java:29)
-	at lecture_01.Item09.Reconstruction.main(Reconstruction.java:21)
+	at lecture01.Item09.Reconstruction.check(Reconstruction.java:29)
+	at lecture01.Item09.Reconstruction.main(Reconstruction.java:21)
 	Suppressed: java.lang.IllegalArgumentException
-		at lecture_01.Item09.Reconstruction$IllegalArgumentExceptionThrower.close(Reconstruction.java:37)
-		at lecture_01.Item09.Reconstruction.check(Reconstruction.java:28)
+		at lecture01.Item09.Reconstruction$IllegalArgumentExceptionThrower.close(Reconstruction.java:37)
+		at lecture01.Item09.Reconstruction.check(Reconstruction.java:28)
 		... 1 more
 ```
 
