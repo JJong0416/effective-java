@@ -9,3 +9,4 @@
 - [x] [다 쓴 객체 참조를 해제하라](2장/Item07/다_쓴_객체_참조를_해제하라.md)
 - [x] [finalizer와 cleaner 사용을 피하라](2장/Item08/finalizer와_cleaner_사용을_피하라.md)
 - [x] [equals는 일반 규약을 지켜 재정의하라](3장/Item10/equals는_일반_규약을_지켜_재정의하라.md)
+- [x] [equals를 재정의하려거든 hashCode도 재정의하라](3장/Item11/equals를_재정의하려거든_hashCode도_재정의하라.md)
