@@ -1,7 +1,5 @@
-package letcure02.Item10;
+package letcure03.Item10;
 
-
-import java.awt.*;
 
 public class StringTest {
     public static void main(String[] args) {

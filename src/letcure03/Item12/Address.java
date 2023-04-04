@@ -1,4 +1,4 @@
-package letcure02.Item12;
+package letcure03.Item12;
 
 public class Address {
     private final String city;

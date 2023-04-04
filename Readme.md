@@ -8,7 +8,9 @@
 - [x] [불필요한 객체를 만들지 말자](2장/Item06/불필요한_객체를_만들지_말자.md)
 - [x] [다 쓴 객체 참조를 해제하라](2장/Item07/다_쓴_객체_참조를_해제하라.md)
 - [x] [finalizer와 cleaner 사용을 피하라](2장/Item08/finalizer와_cleaner_사용을_피하라.md)
+## 3장.
 - [x] [equals는 일반 규약을 지켜 재정의하라](3장/Item10/equals는_일반_규약을_지켜_재정의하라.md)
 - [x] [equals를 재정의하려거든 hashCode도 재정의하라](3장/Item11/equals를_재정의하려거든_hashCode도_재정의하라.md)
 - [x] [toString을 항상 재정의하라](3장/Item12/toString을_항상_재정의하라.md)
 - [x] [clone 재정의는 주의해서 진행하라](3장/Item13/clone_재정의는_주의해서_진행하라.md)
+- [x] [Comparable을 구현할지 고려하라](3장/Item14/Comparable을_구현할지_고려하라.md)

@@ -1,10 +1,12 @@
-package letcure02.Item11;
+package letcure03.Item11;
 
 import lombok.AccessLevel;
 import lombok.Builder;
+import lombok.Getter;
 
 import java.util.Objects;
 
+@Getter
 public class PhoneNumber {
 
     protected int firstNumber;
