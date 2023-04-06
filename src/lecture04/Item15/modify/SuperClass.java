@@ -1,4 +1,4 @@
-package lecture04.modify;
+package lecture04.Item15.modify;
 
 public class SuperClass {
     public void methodA(){
