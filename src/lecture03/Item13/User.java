@@ -1,4 +1,4 @@
-package letcure03.Item13;
+package lecture03.Item13;
 
 public class User implements Cloneable {
 

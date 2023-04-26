@@ -1,4 +1,4 @@
-package letcure03.Item12;
+package lecture03.Item12;
 
 public class Address {
     private final String city;

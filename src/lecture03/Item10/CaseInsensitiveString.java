@@ -1,4 +1,4 @@
-package letcure03.Item10;
+package lecture03.Item10;
 
 public class CaseInsensitiveString {
 

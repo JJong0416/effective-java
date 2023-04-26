@@ -1,4 +1,4 @@
-package letcure03.Item11;
+package lecture03.Item11;
 
 public class ExtendedPhoneNumber extends PhoneNumber {
 

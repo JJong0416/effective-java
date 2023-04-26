@@ -1,4 +1,4 @@
-package letcure03.Item13;
+package lecture03.Item13;
 
 import org.junit.Assert;
 import org.junit.Test;

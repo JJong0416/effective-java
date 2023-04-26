@@ -1,30 +1,30 @@
-package letcure03.Item13;
+package lecture03.Item13;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class CopyFactory {
+public class CopyConstructor {
     private String name;
     private int age;
     private Set<String> subjects;
 
-    public CopyFactory(String name, int age, Set<String> subjects) {
+    public CopyConstructor(String name, int age, Set<String> subjects) {
         this.name = name;
         this.age = age;
         this.subjects = subjects;
     }
 
     // 복사 생성자
-    public CopyFactory(CopyFactory copyFactory) {
-        this.name = copyFactory.name;
-        this.age = copyFactory.age;
-        this.subjects = new HashSet<>(copyFactory.subjects);    // 딥 카피
-    }
+    public CopyConstructor(CopyConstructor copyConstructor) {
+        this.name = copyConstructor.name;
+        this.age = copyConstructor.age;
 
-    // 팩토리 복사
-    public static CopyFactory newInstance(CopyFactory copyFactory) {
-        return new CopyFactory(copyFactory);
+        // 얕은 복사
+        // this.subjects = student.subjects;
+
+        // 깊은 복사 – `HashSet`의 새 인스턴스 생성
+        this.subjects = new HashSet<>(copyConstructor.subjects);
     }
 
     @Override
